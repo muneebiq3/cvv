@@ -1,0 +1,30 @@
+.left {
+    background-color: #333333
+}
+
+.advance, .proficient, .intermediate {
+    color: #333333;
+}
+
+@media (max-width: 576px) {
+    .email a, .email i, .phone a, .phone i, .address a, .address i, .expertise div, .skills div, .languages div, .socials a {
+        font-size: 0.6rem;
+    }
+    .fname {
+        letter-spacing: 0.594rem;
+    }
+    .lname {
+        letter-spacing: 1.25rem;
+    }
+}
+
+.right {
+    border: 4px solid #333333
+}
+
+.fname {
+    letter-spacing: 9.5px;
+}
+.lname {
+    letter-spacing: 20px;
+}
